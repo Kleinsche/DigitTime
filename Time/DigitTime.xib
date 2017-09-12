@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8lY-XY-mbO">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="kSd-LH-Rle">
+                    <rect key="frame" x="17" y="21" width="310" height="167"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time8" translatesAutoresizingMaskIntoConstraints="NO" id="TAm-v0-oES">
+                            <rect key="frame" x="0.0" y="0.0" width="59" height="167"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time8" translatesAutoresizingMaskIntoConstraints="NO" id="UvL-kr-2et">
+                            <rect key="frame" x="63" y="0.0" width="58.5" height="167"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="minute" translatesAutoresizingMaskIntoConstraints="NO" id="YIK-IJ-zjP">
+                            <rect key="frame" x="125.5" y="0.0" width="59" height="167"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time8" translatesAutoresizingMaskIntoConstraints="NO" id="zk1-bU-7mG">
+                            <rect key="frame" x="188.5" y="0.0" width="58.5" height="167"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time8" translatesAutoresizingMaskIntoConstraints="NO" id="SFK-lz-BFY">
+                            <rect key="frame" x="251" y="0.0" width="59" height="167"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="SFK-lz-BFY" firstAttribute="width" secondItem="TAm-v0-oES" secondAttribute="width" id="Mbl-bX-Zh6"/>
+                        <constraint firstItem="UvL-kr-2et" firstAttribute="width" secondItem="TAm-v0-oES" secondAttribute="width" id="RFU-FJ-s0h"/>
+                        <constraint firstItem="YIK-IJ-zjP" firstAttribute="width" secondItem="TAm-v0-oES" secondAttribute="width" id="a29-Ed-yXG"/>
+                        <constraint firstItem="zk1-bU-7mG" firstAttribute="width" secondItem="TAm-v0-oES" secondAttribute="width" id="w0f-md-Q3D"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kSd-LH-Rle" firstAttribute="width" secondItem="8lY-XY-mbO" secondAttribute="width" multiplier="9/10" id="09c-1M-2sI"/>
+                <constraint firstItem="kSd-LH-Rle" firstAttribute="centerY" secondItem="8lY-XY-mbO" secondAttribute="centerY" id="1jE-lp-oLe"/>
+                <constraint firstItem="kSd-LH-Rle" firstAttribute="centerX" secondItem="8lY-XY-mbO" secondAttribute="centerX" id="II1-cW-FuV"/>
+                <constraint firstItem="kSd-LH-Rle" firstAttribute="height" secondItem="8lY-XY-mbO" secondAttribute="height" multiplier="4/5" id="xhZ-tk-XO9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-48" y="-183"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="minute" width="16" height="16"/>
+        <image name="time8" width="16" height="16"/>
+    </resources>
+</document>

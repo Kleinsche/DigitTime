@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370059E91F58FA3600C4E72A /* TimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370059E81F58FA3600C4E72A /* TimeHelper.swift */; };
+		37392EA31F67CBC2000FB8D4 /* DigitTime.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37392EA21F67CBC2000FB8D4 /* DigitTime.xib */; };
 		3776FE061F57F430003EBA8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776FE051F57F430003EBA8A /* AppDelegate.swift */; };
 		3776FE081F57F430003EBA8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776FE071F57F430003EBA8A /* ViewController.swift */; };
 		3776FE0B1F57F430003EBA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3776FE091F57F430003EBA8A /* Main.storyboard */; };
 		3776FE0D1F57F430003EBA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3776FE0C1F57F430003EBA8A /* Assets.xcassets */; };
 		3776FE101F57F430003EBA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3776FE0E1F57F430003EBA8A /* LaunchScreen.storyboard */; };
+		3776FE1A1F57F7B1003EBA8A /* DigitTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776FE191F57F7B1003EBA8A /* DigitTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370059E81F58FA3600C4E72A /* TimeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHelper.swift; sourceTree = "<group>"; };
+		37392EA21F67CBC2000FB8D4 /* DigitTime.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DigitTime.xib; sourceTree = "<group>"; };
 		3776FE021F57F430003EBA8A /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3776FE051F57F430003EBA8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3776FE071F57F430003EBA8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		3776FE0C1F57F430003EBA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3776FE0F1F57F430003EBA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3776FE111F57F430003EBA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3776FE191F57F7B1003EBA8A /* DigitTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				3776FE051F57F430003EBA8A /* AppDelegate.swift */,
 				3776FE071F57F430003EBA8A /* ViewController.swift */,
 				3776FE091F57F430003EBA8A /* Main.storyboard */,
+				37392EA21F67CBC2000FB8D4 /* DigitTime.xib */,
+				3776FE191F57F7B1003EBA8A /* DigitTimeView.swift */,
+				370059E81F58FA3600C4E72A /* TimeHelper.swift */,
 				3776FE0C1F57F430003EBA8A /* Assets.xcassets */,
 				3776FE0E1F57F430003EBA8A /* LaunchScreen.storyboard */,
 				3776FE111F57F430003EBA8A /* Info.plist */,
@@ -125,6 +134,7 @@
 				3776FE101F57F430003EBA8A /* LaunchScreen.storyboard in Resources */,
 				3776FE0D1F57F430003EBA8A /* Assets.xcassets in Resources */,
 				3776FE0B1F57F430003EBA8A /* Main.storyboard in Resources */,
+				37392EA31F67CBC2000FB8D4 /* DigitTime.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3776FE081F57F430003EBA8A /* ViewController.swift in Sources */,
+				3776FE1A1F57F7B1003EBA8A /* DigitTimeView.swift in Sources */,
+				370059E91F58FA3600C4E72A /* TimeHelper.swift in Sources */,
 				3776FE061F57F430003EBA8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
